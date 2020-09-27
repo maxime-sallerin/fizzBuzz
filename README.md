@@ -38,6 +38,13 @@ Buzz
 - Un número es Fizz si es divisible por 3 o si incluye un 3 en el número
 - Un número es Buzz si es divisible por 5 o si incluye un 5 en el número
 
+## Soluciones
+
+En ramas se pueden ver diferentes soluciones de la kata
+
+- **basic reqs** Solución de requisitos básicos usando una aproximación intermedia mediante función que devuelve la solución para cada número.
+- **predicates-rules-openclose** Solución con requisitos nuevos Open-close con predicados y reglas mediante función que devuelve la solución para cada número.
+- **one-to-many-1..4** Solución basada en _predicates-rules-openclose_ que hace el paso de ir de la solución de cada número al listado. Paso a paso en 4 iteraciones siempre en verde.
 
 ## Créditos
 
