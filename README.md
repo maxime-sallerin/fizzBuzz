@@ -1,13 +1,13 @@
-# Kata FizzBuzz
+## Kata FizzBuzz
 
-## Enunciado
+## Déclaration
 
-Escribe un programa que imprima los números del 1 al 100, pero aplicando las siguientes normas:
-- Devuelve Fizz si el número es divisible por 3.
-- Devuelve Buzz si el número es divisible por 5.
-- Devuelve FizzBuzz si el número es divisible por 3 y por 5.
+Écrivez un programme qui imprime les nombres de 1 à 100, mais en appliquant les règles suivantes :
+- Retourne Fizz si le nombre est divisible par 3.
+- Renvoie Buzz si le nombre est divisible par 5.
+- Renvoie FizzBuzz si le nombre est divisible par 3 et par 5.
 
-Salida de ejemplo:
+Exemple de sortie :
 
 ```
 1
@@ -30,22 +30,22 @@ FizzBuzz
 Fizz
 19
 Buzz
-... etc hasta el 100
+... etc jusqu'à 100
 ```
 
-### Nuevos requerimientos
+### Nouvelles exigences
 
-- Un número es Fizz si es divisible por 3 o si incluye un 3 en el número
-- Un número es Buzz si es divisible por 5 o si incluye un 5 en el número
+- Un nombre est dit Fizz s'il est divisible par 3 ou s'il contient un 3.
+- Un nombre est Buzz s'il est divisible par 5 ou s'il contient un 5.
 
-## Soluciones
+## Solutions
 
-En ramas se pueden ver diferentes soluciones de la kata
+Dans les branches, vous pouvez voir différentes solutions du kata
 
-- **basic reqs** Solución de requisitos básicos usando una aproximación intermedia mediante función que devuelve la solución para cada número.
-- **predicates-rules-openclose** Solución con requisitos nuevos Open-close con predicados y reglas mediante función que devuelve la solución para cada número.
-- **one-to-many-1..4** Solución basada en _predicates-rules-openclose_ que hace el paso de ir de la solución de cada número al listado. Paso a paso en 4 iteraciones siempre en verde.
+- **basic reqs** Solution des exigences de base utilisant une approximation intermédiaire par une fonction qui renvoie la solution pour chaque nombre.
+- Open-close** Solution avec de nouvelles exigences Open-close avec prédicats et règles par fonction retournant la solution pour chaque nombre.
+- One-to-many-1..4** Solution basée sur _predicates-rules-openclose_ qui fait l'étape de passer de la solution pour chaque nombre à la liste. Pas à pas en 4 itérations toujours en vert.
 
-## Créditos
+## Crédits
 
 [Kata original](https://codingdojo.org/kata/FizzBuzz/)
