@@ -1,1 +1,3 @@
-export const fizzBuzz = () => undefined;
+export function fizzBuzz() {
+  return undefined
+}
